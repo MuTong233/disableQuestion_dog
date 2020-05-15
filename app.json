@@ -7,7 +7,7 @@
     "apiver":9,                // Api版本，本SDK为9
     "name":"永恒境界群插件",      // 应用名称
     "version":"Pluto Alpha",         // 应用版本
-    "version_id":5,            // 应用顺序版本（每次发布时至少+1）
+    "version_id":10,            // 应用顺序版本（每次发布时至少+1）
     "author":"MuTong233",        // 应用作者
     "description":"此插件仅限于内部测试交流使用，未经允许不得外传！QQ：2698436024",
     "event":[       // 事件列表，同一事件类型可重复定义（发布前请删除无用事件）
@@ -133,15 +133,15 @@
         //103,   //发送讨论组消息     sendDiscussMsg
         106,   //发送私聊消息       sendPrivateMsg
         //110, //[敏感]发送赞       sendLike
-        //120,   //置群员移除         setGroupKick
+        120,   //置群员移除         setGroupKick
         121,   //置群员禁言         setGroupBan
         //122,   //置群管理员         setGroupAdmin
-       // 123,   //置全群禁言         setGroupWholeBan
+        123,   //置全群禁言         setGroupWholeBan
        // 124,   //置匿名群员禁言     setGroupAnonymousBan
        // 125,   //置群匿名设置       setGroupAnonymous
-       // 126,   //置群成员名片       setGroupCard
+        126,   //置群成员名片       setGroupCard
         //127, //[敏感]置群退出     setGroupLeave
-        //128,   //置群成员专属头衔   setGroupSpecialTitle
+        128,   //置群成员专属头衔   setGroupSpecialTitle
        // 130,   //取群成员信息       getGroupMemberInfo
        // 131,   //取陌生人信息       getStrangerInfo
         132,   //取群信息           getGroupInfo
